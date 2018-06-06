@@ -1,0 +1,9 @@
+##### Functions #####
+export (Get_Kernel_Matrix, TransMeta_Rare_Null_Model, TransMeta_Rare_Null_Model_EmmaX, TransMeta_Rare_wZ)
+
+##### Dependent Package #####
+import(SKAT)
+import(copula)
+import(mvtnorm)
+import(GMMAT)
+

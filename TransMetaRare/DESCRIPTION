@@ -1,0 +1,13 @@
+Package: TransMetaRare
+Type: Package
+Title: Trans-ethnic Meta-analysis of Rare Variants in Sequencing
+        Association Studies
+Version: 0.1
+Date: 2018-06-05
+Author: ingchunzi Shi, Seunggeun Lee
+Maintainer: Jingchunzi (Jing) Shi <shijingc@umich.edu>
+Description: A score test for rare variant associations in trans-ethnic meta-analysis. The method uses summary level score statistics to carry out gene-based meta-analysis for rare variants.
+License: GPL (>= 2)
+Depends: copula, GMMAT, SKAT, mvtnorm, R (>= 3.2.0)
+NeedsCompilation: no
+Packaged: 2018-06-06 16:04:26 UTC; shijingc

@@ -1,0 +1,17 @@
+G.list                  Example dataset, a list of genotype matrices
+Get_Kernel_Matrix       A function to estimate the kernel matrix
+K.list                  Example dataset, a list of kinship matrices
+TransMeta-Rare-package
+                        Trans-ethnic Meta-analysis of Rare Variants in
+                        Sequencing Association Studies
+TransMeta_Rare_Null_Model
+                        Get parameters and residuals from H0 for
+                        population-based study design
+TransMeta_Rare_Null_Model_EmmaX
+                        Get parameters and residuals from H0 for
+                        family-based study design
+TransMeta_Rare_wZ       Trans-ethnic meta-analysis with individual
+                        level genotype data
+x.list                  Example dataset, a list of non-genetic
+                        adjusting covariate matrices
+y.list                  Example dataset, a list of phenotype vectors

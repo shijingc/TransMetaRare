@@ -1,0 +1,107 @@
+* using log directory ‘/home/shijingc/TransMeta_Gene/R_package_debug/TransMetaRare.Rcheck’
+* using R version 3.3.3 (2017-03-06)
+* using platform: x86_64-pc-linux-gnu (64-bit)
+* using session charset: UTF-8
+* checking for file ‘TransMetaRare/DESCRIPTION’ ... OK
+* checking extension type ... Package
+* this is package ‘TransMetaRare’ version ‘0.1’
+* checking package namespace information ... OK
+* checking package dependencies ... OK
+* checking if this is a source package ... OK
+* checking if there is a namespace ... OK
+* checking for executable files ... OK
+* checking for hidden files and directories ... OK
+* checking for portable file names ... OK
+* checking for sufficient/correct file permissions ... OK
+* checking whether package ‘TransMetaRare’ can be installed ... OK
+* checking installed package size ... OK
+* checking package directory ... OK
+* checking DESCRIPTION meta-information ... OK
+* checking top-level files ... OK
+* checking for left-over files ... OK
+* checking index information ... OK
+* checking package subdirectories ... OK
+* checking R files for non-ASCII characters ... OK
+* checking R files for syntax errors ... OK
+* checking whether the package can be loaded ... OK
+* checking whether the package can be loaded with stated dependencies ... OK
+* checking whether the package can be unloaded cleanly ... OK
+* checking whether the namespace can be loaded with stated dependencies ... OK
+* checking whether the namespace can be unloaded cleanly ... OK
+* checking loading without being on the library search path ... OK
+* checking dependencies in R code ... NOTE
+Unexported objects imported by ':::' calls:
+  ‘SKAT:::Get_Davies_PVal’ ‘SKAT:::Get_Liu_PVal’ ‘SKAT:::Impute’
+  See the note in ?`:::` about the use of this operator.
+* checking S3 generic/method consistency ... OK
+* checking replacement functions ... OK
+* checking foreign function calls ... OK
+* checking R code for possible problems ... NOTE
+Beta.Weights: no visible global function definition for ‘dbeta’
+SKAT_2Kernel_Ortho_Optimal_Each_Q_FixedRho1: no visible global function
+  definition for ‘cor’
+SKAT_2Kernel_Ortho_Optimal_Each_Q_GridRho1: no visible global function
+  definition for ‘cor’
+TransMeta_Rare.Work: no visible global function definition for ‘rnorm’
+TransMeta_Rare_Null_Model_EmmaX: no visible binding for global variable
+  ‘n.g’
+TransMeta_Rare_Null_Model_EmmaX: no visible global function definition
+  for ‘binomial’
+Undefined global functions or variables:
+  binomial cor dbeta n.g rnorm
+Consider adding
+  importFrom("stats", "binomial", "cor", "dbeta", "rnorm")
+to your NAMESPACE file.
+* checking Rd files ... NOTE
+prepare_Rd: TransMeta_Rare_Null_Model.Rd:32-34: Dropping empty section \details
+prepare_Rd: TransMeta_Rare_Null_Model_EmmaX.Rd:35-37: Dropping empty section \details
+* checking Rd metadata ... OK
+* checking Rd cross-references ... OK
+* checking for missing documentation entries ... WARNING
+Undocumented data sets:
+  ‘Genetic_Kernel’ ‘Indep_Kernel’ ‘Z.list’
+All user-level objects in a package should have documentation entries.
+See chapter ‘Writing R documentation files’ in the ‘Writing R
+Extensions’ manual.
+* checking for code/documentation mismatches ... WARNING
+Codoc mismatches from documentation object 'TransMeta_Rare_wZ':
+TransMeta_Rare_wZ
+  Code: function(Z, obj, combined.weight = FALSE, weights.beta = c(1,
+                 25), Kernel = Kernel, n.Resampling.Copula = 500, rho1
+                 = c(0, 1), rho2 = c(0, 0.09, 0.25, 1), Group_Idx =
+                 NULL, impute.method = "fixed", impute.estimate.maf =
+                 1, missing_cutoff = 0.15)
+  Docs: function(Z, obj, combined.weight = FALSE, weights.beta = c(1,
+                 25), Kernel = Kernel, n.Resampling.Copula = 500,
+                 Group_Idx = NULL, rho1 = c(0, 1), rho2 = c(0, 0.09,
+                 0.25, 1), impute.method = "fixed", impute.estimate.maf
+                 = 1, missing_cutoff = 0.15)
+  Mismatches in argument names:
+    Position: 7 Code: rho1 Docs: Group_Idx
+    Position: 8 Code: rho2 Docs: rho1
+    Position: 9 Code: Group_Idx Docs: rho2
+
+* checking Rd \usage sections ... OK
+* checking Rd contents ... OK
+* checking for unstated dependencies in examples ... OK
+* checking contents of ‘data’ directory ... OK
+* checking data for non-ASCII characters ... OK
+* checking data for ASCII and uncompressed saves ... WARNING
+  
+  Note: significantly better compression could be obtained
+        by using R CMD build --resave-data
+             old_size new_size compress
+  G.list.rda    424Kb     86Kb    bzip2
+  K.list.rda    510Kb     13Kb    bzip2
+* checking files in ‘vignettes’ ... OK
+* checking examples ... OK
+* checking for unstated dependencies in vignettes ... OK
+* checking package vignettes in ‘inst/doc’ ... WARNING
+Package vignette without corresponding PDF/HTML:
+   ‘TranMetaRare.Rnw’
+
+* checking running R code from vignettes ... OK
+* checking re-building of vignette outputs ... OK
+* checking PDF version of manual ... OK
+* DONE
+Status: 4 WARNINGs, 3 NOTEs
